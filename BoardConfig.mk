@@ -26,6 +26,10 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := serranods,serranodsdd,serranodsub,serranodsxx,GT-I9192
 
+# Default Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-linaro
+TARGET_LEGACY_GCC_VERSION := 4.9-linaro
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_3g_defconfig
 
