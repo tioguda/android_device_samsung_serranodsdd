@@ -42,3 +42,6 @@ BOARD_HAVE_GENERIC_BLN := true
 
 # Disable Block Based OTA
 BLOCK_BASED_OTA=false
+
+# Charger
+BOARD_NO_CHARGER_LED := true
